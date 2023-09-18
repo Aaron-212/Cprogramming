@@ -1,11 +1,12 @@
 /*
- * File: 1.6.c
- * File Created: 2023/09/18 15:38:06
+ * File: 4.4.c
+ * File Created: 2023/09/18 17:16:06
  * Author: Aaon212 (aaron212cn@outlook.com)
  * 
  * Copyright 2023 Aaron212
  */
 
+// 同1.6
 
 #include<stdio.h>
 
