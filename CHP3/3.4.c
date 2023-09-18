@@ -1,0 +1,18 @@
+/*
+ * File: 3.4.c
+ * File Created: 2023/09/18 16:27:09
+ * Author: Aaon212 (aaron212cn@outlook.com)
+ * 
+ * Copyright 2023 Aaron212
+ */
+
+#include <stdio.h>
+
+int main() {
+    char c1, c2;
+    c1 = 97;
+    c2 = 98;
+    printf("c1 = %c, c2 = %c\n", c1, c2);
+    printf("c1 = %d, c2 = %d\n", c1, c2);
+    return 0;
+}
