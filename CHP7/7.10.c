@@ -9,21 +9,24 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char str[100];
-    char *pch;
-    int len = 0;
-    char longeststr[20];
-    printf("Enter a line of text: ");
-    fgets(str, 100, stdin);
-    pch = strtok(str, " ,.-");
+void findLongestWord(char *str, char *longeststr, int *len) {
+    char *pch = strtok(str, " ,.-");
     while (pch != NULL) {
-        if (strlen(pch) > len) {
-            len = strlen(pch);
+        if (strlen(pch) > *len) {
+            *len = strlen(pch);
             strcpy(longeststr, pch);
         }
         pch = strtok(NULL, " ,.-");
     }
+}
+
+int main() {
+    char str[100];
+    char longeststr[20];
+    int len = 0;
+    printf("Enter a line of text: ");
+    fgets(str, 100, stdin);
+    findLongestWord(str, longeststr, &len);
     printf("The first longest word is \"%s\", with %d letters.\n", longeststr, len);
     return 0;
 }
