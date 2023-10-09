@@ -23,7 +23,7 @@ int main() {
     int offset = 4;
 
     printf("Enter string to encrypt (max 20 chars, no space): ");
-    scanf("%s", inputString);
+    fgets(inputString, 20, stdin);
 
     int len = strlen(inputString);
     for(i=0; i<len; i++) {

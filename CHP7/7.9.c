@@ -36,8 +36,8 @@ int main() {
     countLetter(str, count);
     printf("capLetterCount : %d\n", count[0]);
     printf("smallLetterCount : %d\n", count[1]);
-    printf("spaceCount : %d\n", count[2]);
-    printf("digitCount : %d\n", count[3]);
+    printf("digitCount : %d\n", count[2]);
+    printf("spaceCount : %d\n", count[3]);
     printf("otherCount : %d\n", count[4]);
     return 0;
 }

@@ -6,13 +6,6 @@
  * Copyright 2023 Aaron212
  */
 
-/*
- * Write individual functions as the requirments:
- * 1. Input 10 employees' names and IDs
- * 2. Sort the employees according to ID
- * 3. Given a specific ID, use binary search to find the employee, and the ID will be inputed from main(), not ftom stdin
- * Coding lang is C
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
