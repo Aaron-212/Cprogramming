@@ -29,7 +29,7 @@ int nthDayOfYear(int year, int month, int day) {
     return days;
 }
 
-// Validate the given year, month, date
+// Validate the given year, month, day
 int validateDate(int year, int month, int day) {
     if (year < 1 || month < 1 || month > 12 || day < 1) {
         return 0;
@@ -58,8 +58,8 @@ int validateDate(int year, int month, int day) {
 
 int main() {
     int year, month, day;
-    printf("Please input year, month and day: ");
-    scanf("%d %d %d", &year, &month, &day);
+    printf("Please input YYYY/MM/DD: ");
+    scanf("%d/%d/%d", &year, &month, &day);
     if ( validateDate(year, month, day) == 0 ) {
         printf("Invalid date!\n");
     } else {

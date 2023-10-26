@@ -1,5 +1,5 @@
 /*
- * File: 9.3.c
+ * File: 9.4.c
  * File Created: 2023/10/09 15:24:41
  * Author: Aaon212 (aaron212cn@outlook.com)
  * 
@@ -15,12 +15,7 @@ struct student {
 } students[5];
 
 
-void print(struct student s) {
-    printf("ID Num: %d, Name: %s\n", s.num, s.name);
-    printf("Score1: %d, Score2: %d, Score3: %d\n", s.score[0], s.score[1], s.score[2]);
-}
-
-int main() {
+void inputStudents() {
     for(int i=0; i<5; i++) {
         printf("Enter student ID Num for student #%d: ",i);
         scanf("%d", &students[i].num);
@@ -34,8 +29,19 @@ int main() {
             scanf("%d", &students[i].score[j]);
         }
     }
+}
+
+void printStudents() {
     for(int i=0; i<5; i++) {
-        print(students[i]);
+        printf("ID Num: %d, Name: %s\n", students[i].num, students[i].name);
+        printf("Score1: %d, Score2: %d, Score3: %d\n", students[i].score[0], students[i].score[1], students[i].score[2]);
     }
+    
+}
+
+
+int main() {
+    inputStudents();
+    printStudents();
     return 0;
 }
