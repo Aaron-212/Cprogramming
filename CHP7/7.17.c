@@ -2,17 +2,17 @@
  * File: 7.17.c
  * File Created: 2023/09/20 23:39:06
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
 #include <stdio.h>
 #include <string.h>
 
-char *strrev(char *str){
+char *strrev(char *str) {
     char *p1, *p2;
 
-    if (! str || ! *str)
+    if (!str || !*str)
         return str;
     for (p1 = str, p2 = str + strlen(str) - 1; p2 > p1; ++p1, --p2) {
         *p1 ^= *p2;
@@ -23,7 +23,7 @@ char *strrev(char *str){
 }
 
 // Convert base 10 Int num to string using iteration
-void itoa(int num, char* str) {
+void itoa(int num, char *str) {
     int i = 0;
     int sign = 0;
     if (num < 0) {

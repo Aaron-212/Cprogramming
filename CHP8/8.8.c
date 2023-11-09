@@ -2,7 +2,7 @@
  * File: 8.8.c
  * File Created: 2023/10/08 14:05:28
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -28,7 +28,7 @@ void countLetter(char *str, int *count) {
 
 int main() {
     char str[1024];
-    int count[5] = {0,0,0,0,0}; // Initialize count array elements to 0
+    int count[5] = {0, 0, 0, 0, 0}; // Initialize count array elements to 0
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
     countLetter(str, count);

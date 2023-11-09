@@ -2,7 +2,7 @@
  * File: 7.18.c
  * File Created: 2023/09/20 23:44:44
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -60,7 +60,7 @@ int main() {
     int year, month, day;
     printf("Please input YYYY/MM/DD: ");
     scanf("%d/%d/%d", &year, &month, &day);
-    if ( validateDate(year, month, day) == 0 ) {
+    if (validateDate(year, month, day) == 0) {
         printf("Invalid date!\n");
     } else {
         printf("The n-th day of the year is: %d\n", nthDayOfYear(year, month, day));

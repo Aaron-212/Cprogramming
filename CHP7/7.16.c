@@ -2,10 +2,9 @@
  * File: 7.16.c
  * File Created: 2023/09/20 23:35:21
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
-
 
 #include <stdio.h>
 
@@ -21,7 +20,7 @@ int hexChar2dec(char hex_num) {
     }
 }
 
-int hexStr2decNum(char* hex_str, int hex_str_len) {
+int hexStr2decNum(char *hex_str, int hex_str_len) {
     int ret = 0;
     for (int i = 0; i < hex_str_len; i++) {
         ret = ret * 16 + hexChar2dec(hex_str[i]);

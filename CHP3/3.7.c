@@ -2,12 +2,12 @@
  * File: 3.7.c
  * File Created: 2023/09/18 16:58:31
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
-#include<stdio.h>
-#include<math.h>
+#include <math.h>
+#include <stdio.h>
 
 int main() {
     double r, h;
@@ -28,5 +28,4 @@ int main() {
     printf("The area of sphere is %.2f \n", sphereS);
     printf("The volume of sphere is %.2f \n", sphereV);
     printf("The volume of cylinder is %.2f \n", cylinderV);
-
 }

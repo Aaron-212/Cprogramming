@@ -2,10 +2,9 @@
  * File: 7.15.c
  * File Created: 2023/09/20 20:54:31
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
-
 
 #include <stdio.h>
 #include <stdlib.h>

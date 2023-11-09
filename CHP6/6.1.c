@@ -2,14 +2,14 @@
  * File: 6.1.c
  * File Created: 2023/09/18 21:53:56
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
 // Use selection alog to calc primes under 100
 
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 int main() {
     bool isNotPrime[100];

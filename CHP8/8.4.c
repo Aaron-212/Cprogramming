@@ -2,7 +2,7 @@
  * File: 8.4.c
  * File Created: 2023/09/21 19:09:36
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -44,7 +44,7 @@ int main() {
     int arr[] = {1, 2, 3, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     int num = 2; // Number of positions to move
-    
+
     // Print the original array
     printf("Original array: ");
     for (int i = 0; i < n; i++) {

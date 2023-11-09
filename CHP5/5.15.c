@@ -2,16 +2,14 @@
  * File: 5.15.c
  * File Created: 2023/09/18 21:32:34
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
-#include<stdio.h>
-#include<math.h>
+#include <math.h>
+#include <stdio.h>
 
-double fx(double x) {
-    return 2*pow(x, 3) - 4*pow(x, 2) + 3*x - 6;
-}
+double fx(double x) { return 2 * pow(x, 3) - 4 * pow(x, 2) + 3 * x - 6; }
 
 // 二分法求根
 int main() {
@@ -22,7 +20,7 @@ int main() {
         printf("Error: 区间内无根\n");
         return -1;
     }
-    for(int i=0; i<100; i++) {
+    for (int i = 0; i < 100; i++) {
         mid = (down + up) / 2;
         if (fx(mid) == 0) {
             break;

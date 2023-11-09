@@ -2,7 +2,7 @@
  * File: 9.2.c
  * File Created: 2023/10/09 15:15:20
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -30,9 +30,9 @@ int nthDayOfYear(int year, int month, int day) {
 
 int main() {
     struct date {
-    int year;
-    int month;
-    int day;
+        int year;
+        int month;
+        int day;
     } newDay = {2023, 10, 3};
     int dayNum = nthDayOfYear(newDay.year, newDay.month, newDay.day);
     printf("%d/%d/%d is the %d-th day of the year", newDay.year, newDay.month, newDay.day, dayNum);

@@ -2,7 +2,7 @@
  * File: 4.8.c
  * File Created: 2023/09/18 17:26:10
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -14,7 +14,7 @@ int main() {
     printf("Enter score: ");
     scanf("%d", &score);
 
-    if (score >=90) {
+    if (score >= 90) {
         printf("Grade is A");
     } else if (score >= 80) {
         printf("Grade is B");

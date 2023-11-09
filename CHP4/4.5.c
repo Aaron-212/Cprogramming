@@ -2,12 +2,12 @@
  * File: 4.5.c
  * File Created: 2023/09/18 17:17:15
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
+#include <math.h>
 #include <stdio.h>
-#include<math.h>
 
 int main() {
     int inputInt;

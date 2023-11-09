@@ -2,14 +2,14 @@
  * File: 7.5.c
  * File Created: 2023/09/19 19:50:44
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
 // Reverse a char array / string
 
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 void reverseStr(char *str) {
     int len = strlen(str);

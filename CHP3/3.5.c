@@ -2,11 +2,11 @@
  * File: 3.5.c
  * File Created: 2023/09/18 16:28:28
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
     int a, b;

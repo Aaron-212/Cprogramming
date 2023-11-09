@@ -2,7 +2,7 @@
  * File: 6.13.c
  * File Created: 2023/09/19 17:59:22
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -10,9 +10,9 @@
 
 #include <stdio.h>
 
-int find_length(char *input){
+int find_length(char *input) {
     int length = 0;
-    while(input[length]!='\n')  //  remove ;
+    while (input[length] != '\n') //  remove ;
     {
         length++;
     }
@@ -34,16 +34,16 @@ int main() {
     int len1 = find_length(str1);
     int len2 = find_length(str2);
     // Loop through the two strings
-    for(int i=0; i<len1+len2; i++) {
+    for (int i = 0; i < len1 + len2; i++) {
         // If the current index is less than the length of the first string
-        if(i<len1) {
+        if (i < len1) {
             // Set the current index to the first string
             finalstr[i] = str1[i];
         }
         // If the current index is greater than the length of the first string
         else {
             // Set the current index to the second string
-            finalstr[i] = str2[i-len1];
+            finalstr[i] = str2[i - len1];
         }
     }
     // Print the final string

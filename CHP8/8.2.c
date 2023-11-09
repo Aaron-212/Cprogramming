@@ -2,7 +2,7 @@
  * File: 8.2.c
  * File Created: 2023/09/21 17:30:34
  * Author: Aaon212 (aaron212cn@outlook.com)
- * 
+ *
  * Copyright 2023 Aaron212
  */
 
@@ -25,7 +25,7 @@ void sortStrings(char **strArray, int size) {
 }
 
 int main() {
-    char *strArray[] = { "banana", "apple", "orange" };
+    char *strArray[] = {"banana", "apple", "orange"};
     int size = sizeof(strArray) / sizeof(char *);
 
     printf("Before sorting:\n");
